@@ -4,4 +4,4 @@ Release
 packages
 Generated Files
 *.user
-/Server.winmd
+*.winmd

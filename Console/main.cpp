@@ -1,11 +1,12 @@
 ﻿#include "pch.h"
 
 using namespace winrt;
-using namespace Windows::Foundation;
 
 int main()
 {
-    init_apartment();
-    Uri uri(L"http://aka.ms/cppwinrt");
-    printf("Hello, %ls!\n", uri.AbsoluteUri().c_str());
+    Server::Apple apple;
+    printf("%ls\n", apple.Name().c_str());
+
+    Server::Orange orange;
+    printf("%ls\n", orange.Name().c_str());
 }

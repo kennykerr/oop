@@ -10,7 +10,7 @@ namespace winrt::Server::implementation
         hstring Name();
         void Name(hstring const& value);
 
-        hstring m_name;
+        hstring m_name{ L"Apple" };
     };
 }
 namespace winrt::Server::factory_implementation
