@@ -1,0 +1,14 @@
+namespace Server
+{
+    runtimeclass Apple
+    {
+        Apple();
+        String Name;
+    }
+
+    runtimeclass Orange
+    {
+        Orange();
+        String Name;
+    }
+}
